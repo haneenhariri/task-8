@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer>
       <div className='f-div'>
-        <img src="../../../public/image/logo.png" alt="" />
+        <img src="./../../public/image/logo.png" alt="" />
         <span>.agency</span>
         <h3>Head Office</h3>
         <p>Syria - Latakia - GRH2+HJX
@@ -35,11 +35,11 @@ export default function Footer() {
         <div>
             <h3>Keep In Touch</h3>
             <div className="icon-f">
-                <a href="https://www.facebook.com/focal.x.agency/"><img src="../../../public/image/facebook.png" alt="" /></a>
-                <a href="https://www.behance.net/focal-x-agency"><img src="../../../public/image/behance.png" alt="" /></a>
-                <a href="https://www.instagram.com/focal.x.agency"><img src="../../../public/image/instgram.png" alt="" /></a>
-                <a href="https://twitter.com/focal_x_agency"><img src="../../../public/image/twitter.png" alt="" /></a>
-                <a href="https://www.linkedin.com/company/focal-x-agency"><img src="../../../public/image/linkdin.png" alt="" /></a>
+                <a href="https://www.facebook.com/focal.x.agency/"><img src="./../../public/image/facebook.png" alt="" /></a>
+                <a href="https://www.behance.net/focal-x-agency"><img src="./../../public/image/behance.png" alt="" /></a>
+                <a href="https://www.instagram.com/focal.x.agency"><img src="./../../public/image/instgram.png" alt="" /></a>
+                <a href="https://twitter.com/focal_x_agency"><img src="./../../public/image/twitter.png" alt="" /></a>
+                <a href="https://www.linkedin.com/company/focal-x-agency"><img src="./../../public/image/linkdin.png" alt="" /></a>
             </div>
         </div>
       </div>

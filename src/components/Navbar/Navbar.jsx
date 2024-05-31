@@ -46,7 +46,7 @@ export default function Navbar() {
     return (
         <nav className='Nav-bar'>
             <div className='logo'>
-            <img src="../../../public/image/logo.svg" alt=""/>
+            <img src="./../../public/image/logo.svg" alt=""/>
             <p>Digital marketing agency</p>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
