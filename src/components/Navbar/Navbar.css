@@ -1,0 +1,119 @@
+.Nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+   box-shadow: 0px 5px 5px rgba(112, 144, 176, 0.2);
+   padding: 0 20px;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+.Nav-bar .logo
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Nav-bar .logo p
+{
+    padding: 0 20px;
+    font-weight:100;
+    font-size: 17px;
+}
+.Nav-bar .nav-menu 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.Nav-bar .nav-menu .nav-item
+{
+    padding:0 10px;
+    position: relative; 
+}
+.nav-item::after
+{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+}
+.nav-item:hover::after
+{
+    width: 50%;
+    background: #ff8500;
+
+}
+.Nav-bar .nav-item .nav-link
+{
+    text-decoration: none;
+    color: grey;
+}
+.Nav-bar .nav-item .nav-link
+{
+    color: black;
+}
+.Nav-bar .nav-menu .nav-item .line {
+    position: absolute;
+    content: "";
+    width: 33px;
+    height: 2px;
+    background-color: #ff8500;
+    bottom: -6px;
+    left: 0px;
+    transition: all 0.3s ease 0s;
+}
+.nav-icon
+{
+    display: none;
+    cursor: pointer;
+}
+.nav-icon i 
+{
+    font-size: 25px;
+}
+
+@media (max-width:992px) and (min-width:300px)
+{
+    .nav-menu
+    {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: -110%;
+        opacity: 0;
+    }
+    .nav-menu.active{
+        background: white;
+        left: 0;
+        opacity: 1;
+        transition: all .5s ease;
+        z-index: 1;
+        box-shadow: 0px 5px 5px rgba(112, 144, 176, 0.2);
+    }
+    .nav-menu.active .nav-item
+    {
+        margin: 10px;
+    }
+    .nav-icon
+    {
+        display: block;
+        
+    }
+}
+@media (max-width:388px) and (min-width: 300px)
+{
+
+    .Nav-bar .logo p {
+        display:none;
+    }
+
+}

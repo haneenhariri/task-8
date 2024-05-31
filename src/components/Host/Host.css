@@ -1,0 +1,126 @@
+.host
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+.h-cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.h-card
+{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: left;
+    color: #000;
+    padding: 15px;
+    position: relative;
+    margin: 10px ;
+}
+.h-card button
+{
+    width: 100%;
+    margin-top: 10px ;
+    padding: 5px ;
+    background: transparent;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.h-card ul
+{
+    margin: 10px 0 ;
+    list-style: none;
+}
+
+.orang
+{
+    border-top: 15px solid #ff8500;
+}
+.orang button
+{
+    border: 1px solid #ff8500;
+    color: #ff8500;
+}
+.violet
+{
+    border-top: 15px solid #a513ff;
+
+}
+.violet button
+{
+    border: 1px solid #a513ff;
+    color: #a513ff;
+}
+.green
+{
+    border-top: 15px solid #71aa27;
+}
+.green button
+{
+    border: 1px solid #71aa27;
+    color: #71aa27;
+}
+.blue
+{
+    border-top: 15px solid #1d5edd;
+}
+.blue button
+{
+    border: 1px solid #1d5edd;
+    color: #1d5edd;
+}
+.h-card p
+{
+    margin: 10px 0;
+}
+.discount
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6px;
+    height: 40px;
+}
+.discount p{
+    width: 140px;
+    margin: 0;
+}
+.h-p
+{
+    width: 780px;
+    margin: 0 auto;
+}
+@media (max-width:992px) and (min-width: 768px)
+{
+    .h-p{
+        width: 80%;
+    }
+}
+@media (max-width:768px) and (min-width:576px)
+{
+    .h-p{
+        width: 80%;
+    }
+    .h-card
+    {
+        width: 400px;
+    }
+}
+@media (max-width:576px) and (min-width:300px)
+{
+    .h-p{
+        width: 80%;
+        font-size: small;
+    }
+}
