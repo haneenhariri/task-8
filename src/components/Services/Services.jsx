@@ -1,5 +1,6 @@
 import './Services.css'
-
+import brand from './../../assets/image/brandingOrange.png'
+import marketing from './../../assets/image/markiting.png'
 
 export default function Services() {
   const cards = [
@@ -10,7 +11,7 @@ export default function Services() {
       text:"It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company.",
       titleH:"In focal X agency, we provide:",
       titelM:"We walk with you from A to Z.",
-      img:"./../../public/image/brandingOrange.png",
+      img:brand,
       cName:"card card-b"
     },
     {
@@ -19,7 +20,7 @@ export default function Services() {
       tName:"mark-h",
       text:"Talk to your customers and tell them you and your company`s story through us the way you want.Let us plan the content that will bring your audience closer to you.",
       titleH:"In our marketing agency, we provide:",
-      img:"./../../public/image/markiting.png",
+      img:marketing,
       cName:"card card-m"
     }
   ]

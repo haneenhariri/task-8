@@ -3,7 +3,7 @@
 {
 
     height: 100vh;
-    background: url(../../../public/image/fotter.svg) no-repeat bottom;
+    background: url(./../../assets/image/fotter.svg) no-repeat bottom;
     display: flex;
     flex-direction: column;
     justify-content: center;

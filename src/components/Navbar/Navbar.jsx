@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Navbar.css'
-
+import logo from './../../assets/image/logo.svg'
 export default function Navbar() {
     const MenuItem =[
         {
@@ -46,7 +46,7 @@ export default function Navbar() {
     return (
         <nav className='Nav-bar'>
             <div className='logo'>
-            <img src="./../../public/image/logo.svg" alt=""/>
+            <img src={logo}alt="focal"/>
             <p>Digital marketing agency</p>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>

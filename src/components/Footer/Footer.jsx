@@ -1,9 +1,15 @@
 import './Footer.css'
+import logo from './../../assets/image/logo.png'
+import facebook from './../../assets/image/facebook.png'
+import behance from './../../assets/image/behance.png'
+import instgram from './../../assets/image/instgram.png'
+import twitter from './../../assets/image/twitter.png'
+import linkdin from './../../assets/image/linkdin.png'
 export default function Footer() {
   return (
     <footer>
       <div className='f-div'>
-        <img src="./../../public/image/logo.png" alt="" />
+        <img src={logo} alt="" />
         <span>.agency</span>
         <h3>Head Office</h3>
         <p>Syria - Latakia - GRH2+HJX
@@ -35,11 +41,11 @@ export default function Footer() {
         <div>
             <h3>Keep In Touch</h3>
             <div className="icon-f">
-                <a href="https://www.facebook.com/focal.x.agency/"><img src="./../../public/image/facebook.png" alt="" /></a>
-                <a href="https://www.behance.net/focal-x-agency"><img src="./../../public/image/behance.png" alt="" /></a>
-                <a href="https://www.instagram.com/focal.x.agency"><img src="./../../public/image/instgram.png" alt="" /></a>
-                <a href="https://twitter.com/focal_x_agency"><img src="./../../public/image/twitter.png" alt="" /></a>
-                <a href="https://www.linkedin.com/company/focal-x-agency"><img src="./../../public/image/linkdin.png" alt="" /></a>
+                <a href="https://www.facebook.com/focal.x.agency/"><img src={facebook} alt="feacbook" /></a>
+                <a href="https://www.behance.net/focal-x-agency"><img src={behance} alt="behance" /></a>
+                <a href="https://www.instagram.com/focal.x.agency"><img src={instgram} alt="instsgrsm" /></a>
+                <a href="https://twitter.com/focal_x_agency"><img src={twitter} alt="twitter" /></a>
+                <a href="https://www.linkedin.com/company/focal-x-agency"><img src={linkdin} alt="linkedin" /></a>
             </div>
         </div>
       </div>
